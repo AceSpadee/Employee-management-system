@@ -4,7 +4,7 @@ const { Pool } = require('pg')
 const client = new Pool({
     user: 'postgres',
     host: 'localhost',
-    database: 'postgres', // Default database to connect initially
+    database: 'employees_db', // Default database to connect initially
     password: '123456',
     port: 5432,
 });
